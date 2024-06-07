@@ -24,6 +24,7 @@
 .logo_jiit img{
    height: 85%;
    width: 40vmin;
+   margin-top: 23px;
 }
 
 .head-inside h1{
@@ -33,4 +34,8 @@
 .head_pic img{
     height: 80%;
     width:100%
+}
+
+.stud{
+    margin-top: 23px;
 }
