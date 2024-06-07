@@ -1,22 +1,30 @@
 import React from "react";
-import Logo from '../assets/logo_jiit.png';
-import Head from '../assets/header_pic.jpg';
 import "./header.css";
+import Logo from "../assets/jiit2.png";
 
 export default function Header() {
   return (
     <div className="head">
       <div className="head-inside">
         <div className="logo_jiit">
-          <img src={Logo} alt="JIIT" className="logo"></img>
+          <img src={Logo} alt=""></img>
         </div>
         <div className="content">
-          <h1>VLSI DESIGN, FABRICATION AND</h1>
-          <h1>CHARACTERIZATION FACULTY</h1>
-          <h2>Jaypee Institute of Information and Technology</h2>
-        </div>
-        <div className="head_pic">
-        <img src={Head} alt="Students" className="stud"></img>
+          <div className="dept">
+            <h2>VLSI DESIGN, FABRICATION AND CHARACTERIZATION FACULTY</h2>
+          </div>
+          <div className="clg">
+            <h3>Department of Electronics and Communication Engineering,</h3>
+            <h3>
+              Jaypee Institute of Information and Technology, Noida , U.P.
+            </h3>
+          </div>
+          <div className="clg_web">
+            <p>Visit Us - {" "}
+            <a className="main_page" href="https://www.jiit.ac.in/">
+               jiit.ac.in
+            </a></p>
+          </div>
         </div>
       </div>
     </div>
