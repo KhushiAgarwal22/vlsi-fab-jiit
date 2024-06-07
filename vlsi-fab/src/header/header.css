@@ -1,0 +1,36 @@
+.head{
+   background-color: rgb(76, 76, 235);
+    width: 100vw;
+    height: 45vh;
+    margin:0;
+    padding: 0
+}
+.head-inside{
+    /* background-color: rgba(240, 248, 255, 0.491); */
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.head-inside div{
+    margin:4vmin
+}
+.content{
+    height:90%;
+    font-size: 3vmin;
+    
+}
+.logo_jiit img{
+   height: 85%;
+   width: 40vmin;
+}
+
+.head-inside h1{
+    color: black;
+    opacity: 1;
+}
+.head_pic img{
+    height: 80%;
+    width:100%
+}
