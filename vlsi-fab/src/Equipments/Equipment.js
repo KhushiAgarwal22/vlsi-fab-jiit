@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 //import slides from './equip'
-import q1 from './equip1.jpg'
+import q1 from '../assets/equip1.jpg'
 import q2 from '../assets/equip2.jpg'
 import q3 from '../assets/equip3.jpg'
 import q4 from '../assets/equip4.jpg'
