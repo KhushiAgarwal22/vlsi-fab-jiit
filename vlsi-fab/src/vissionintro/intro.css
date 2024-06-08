@@ -1,0 +1,18 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2px;
+    margin-top:1vmin
+}
+.content_intro{
+    margin-left: 2px;
+    height: max-content;
+}
+.content_intro h1{
+    text-align: center;
+}
+.content_intro h3{
+   font-size:3.5vmin;
+   margin-left:1vmin
+}

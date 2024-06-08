@@ -1,41 +1,57 @@
-.head{
-   background-color: rgb(76, 76, 235);
-    width: 100vw;
-    height: 45vh;
+.head {
+  width: 100vw;
+  min-height: 4rem;
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+.head-inside {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  margin-left: 0;
+}
+.content {
+  height: 95%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  justify-items: flex-start;
+  justify-content: center;
+  margin-left: 4vmin;
+}
+.dept {
+  font-size: 1.5vw;
+  margin-bottom: 0;
+  color: rgb(238, 238, 243);
+}
+.clg {
+  font-size: 1.5vw;
+}
+.logo_jiit img {
+  height: 70%;
+}
+.logo_jiit {
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: flex-start;
+  margin-left: 2vmin;
+  
+}
+.clg_web{
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.main_page{
+    color:white;
+    justify-self: flex-end;
     margin:0;
-    padding: 0
-}
-.head-inside{
-    /* background-color: rgba(240, 248, 255, 0.491); */
-    height: 45vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.head-inside div{
-    margin:4vmin
-}
-.content{
-    height:90%;
-    font-size: 3vmin;
-    
-}
-.logo_jiit img{
-   height: 85%;
-   width: 40vmin;
-   margin-top: 23px;
-}
-
-.head-inside h1{
-    color: black;
-    opacity: 1;
-}
-.head_pic img{
-    height: 80%;
-    width:100%
-}
-
-.stud{
-    margin-top: 23px;
+    margin-bottom: 1vmin;
 }
