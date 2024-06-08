@@ -7,6 +7,7 @@ import Body from './body/Body.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Equipment from "./Equipments/Equipment.js";
 
+
 function App() {
   return (
     <div className="App">
