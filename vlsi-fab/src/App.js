@@ -3,6 +3,7 @@ import Layout from "./layout/LayOut.js";
 import About from "./about/About.js";
 import Credit from "./credits/Credit.js";
 import Intro from "./vissionintro/Intro.js";
+import Body from './body/Body.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Intro />} />
           <Route path="/about" element={<About />}/>
+          <Route path="/opportunities" element={<Body />}/>
         </Route>
       </Routes>
     </BrowserRouter>
