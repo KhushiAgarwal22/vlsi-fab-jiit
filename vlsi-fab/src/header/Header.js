@@ -21,7 +21,7 @@ export default function Header() {
           </div>
           <div className="clg_web">
             <p>Visit Us - {" "}
-            <a className="main_page" href="https://www.jiit.ac.in/">
+            <a className="main_page" href="https://www.jiit.ac.in/" target="_blank">
                jiit.ac.in
             </a></p>
           </div>

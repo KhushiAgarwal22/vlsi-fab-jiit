@@ -155,14 +155,14 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .carousel2{
+  .carousel2,.carousel{
     width: 60vw;
     height:45vh
   }
 }
-@media only screen and (max-width: 500px) {
-  .carousel2{
-    width: 60vw;
+@media only screen and (max-width: 600px) {
+  .carousel2, .carousel{
+    width: 70vw;
     height:30vh
   }
 }
