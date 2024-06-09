@@ -2,8 +2,9 @@
   width: 100vw;
   min-height: 4rem;
   margin: 0;
+  color: black;
   padding: 0;
-  background-color: rgb(75, 75, 206);
+  background-color: white;
 }
 .head-inside {
   height: max-content;
@@ -27,7 +28,7 @@
 .dept {
   font-size: 3.5vmin;
   margin-bottom: 0;
-  color: rgb(238, 238, 243);
+  color: rgb(0, 0, 0);
   text-align: center;
   /* border:2px solid black; */
   padding:0
@@ -42,7 +43,7 @@
   text-align: center;
 }
 .logo_jiit img {
-  height: 60%;
+  height: 220px;
 }
 .logo_jiit {
   /* border: 2px solid white; */
@@ -53,12 +54,12 @@
   margin-left: 4vmin;
 }
 .clg_web{
-    color: rgb(255, 255, 255);
-    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
     font-weight: bold;
 }
 .main_page{
-    color:white;
+    color:rgb(0, 0, 0);
     justify-self: flex-end;
     margin:0;
     margin-bottom: 1vmin;
@@ -73,34 +74,29 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 0;
-    border: 2px solid black;
   }
 
   .logo_jiit img {
-    height: 10vmin;
+    height: 30vmin;
     margin-top:3vmin
   }
   .dept {
-    font-size: 3vmin;
+    font-size: 3.5vmin;
     margin-bottom: 0;
-    color: rgb(238, 238, 243);
-    /* border:2px solid black; */
+    color: rgb(0, 0, 0);
     padding:0;
     text-align: center;
-    /* border: 2px solid black; */
     width:100%
   }
   .clg {
-    font-size: 2.7vmin;
-    /* border:2px solid black; */
+    font-size: 3.5vmin;
     padding:0;
     height:40%;
     text-align: center;
-    /* border: 2px solid black; */
     margin:0;
     width:100%
   }
-  clg_web{
-    font-size: 1.5vmin;
+  .clg_web{
+    font-size: 1em;
   }
 }
