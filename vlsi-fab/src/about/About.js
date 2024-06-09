@@ -57,7 +57,7 @@ export default function About() {
           <p>{prop.cont}</p>
         </div>
         <div className="abtimg">
-          <img src={imgProp} />
+          <img src={imgProp} alt="" />
         </div>
       </div>
     </div>
