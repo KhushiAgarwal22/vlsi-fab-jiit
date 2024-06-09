@@ -27,7 +27,7 @@ const vision =[
     {
         id:6,
         heading:"Contribute to the Semiconductor Industry",
-        con:": Develop prototypes and innovative solutions that address the needs of the semiconductor industry, leading to potential new technology patents and commercial ventures."
+        con:"Develop prototypes and innovative solutions that address the needs of the semiconductor industry, leading to potential new technology patents and commercial ventures."
     },
     {
         id:7,
