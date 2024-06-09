@@ -1,9 +1,14 @@
 .intro{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap:2px;
-    margin-top:1vmin
+    justify-content: space-evenly;
+    gap:30px;
+    width: 90%;
+    margin:7vmin auto;
+}
+
+.whole{
+    margin-bottom: 70px;
 }
 .content_intro{
     margin-left: 2px;
@@ -12,20 +17,27 @@
 .content_intro h1{
     text-align: center;
 }
-.content_intro h3{
-   font-size:1.5vw;
-   margin-left:1vmin
+.content_intro p{
+   font-size:1.3em;
+   font-weight: 600;
+   margin-left:1vmin;
+   line-height: 1.6;
+    text-align: justify;
 }
 .pic img{
     width:40vw;
 }
 .viss h1 {
     font-size: 2em;
-    margin-bottom: 16px;
+    margin: 40px auto;
     text-align: center;
     width: 100%;
     animation: animate 1.5s linear infinite; 
     color:rgb(101, 5, 255)
+}
+.vis_con{
+    width: 95%;
+    margin: auto;
 }
 @media only screen and (max-width: 750px) {
     .intro{
@@ -33,13 +45,20 @@
         flex-direction: column;
         justify-content: space-between;
         gap:2px;
-        margin-top:1vmin
+        margin:1vmin auto; 
     }
     .pic img{
-        width:100vw;
+        width:100%;
     }
     .content_intro h3{
-       font-size:3vmin;
+       font-size:2vmin;
        margin-left:1vmin
+    }
+    .content_intro p{
+       font-size:4vmin;
+       margin-left:1vmin
+    }
+    .viss h1{
+    font-size: 2vin;
     }
   }

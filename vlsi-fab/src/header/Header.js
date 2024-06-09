@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Logo from "../assets/jiit2.png";
+import Logo from "../assets/jiit.png";
 
 export default function Header() {
   return (

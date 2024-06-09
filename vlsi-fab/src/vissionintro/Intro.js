@@ -11,7 +11,7 @@ export default function Intro() {
         </div>
         <div className="content_intro">
           <h1>INTRODUCTION</h1>
-          <h3>
+          <p>
             The Jaypee Institute of Information Technology (JIIT), renowned for
             its commitment to excellence in education and research, houses one
             of the advanced facilities in the realm of Very Large Scale
@@ -21,7 +21,7 @@ export default function Intro() {
             semiconductor technologies. It serves as a critical resource for
             students, researchers, and professionals aiming to excel in the
             ever-evolving field of VLSI.
-          </h3>
+          </p>
         </div>
       </div>
       <Vision />

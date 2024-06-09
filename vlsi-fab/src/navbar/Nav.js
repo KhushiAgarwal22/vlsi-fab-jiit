@@ -15,19 +15,19 @@ export default function Nav() {
       </div>
       <ul className={menuOpen ? "open" : ""}>
       <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" onClick={() => setMenuOpen(!menuOpen)}>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about" onClick={() => setMenuOpen(!menuOpen)}>About</NavLink>
         </li>
         <li>
-          <NavLink to="/equipment">Equipments</NavLink>
+          <NavLink to="/equipment" onClick={() => setMenuOpen(!menuOpen)}>Equipments</NavLink>
         </li>
         <li>
-          <NavLink to="/opportunities">Opportunities</NavLink>
+          <NavLink to="/opportunities" onClick={() => setMenuOpen(!menuOpen)}>Opportunities</NavLink>
         </li>
         <li>
-          <NavLink to="/leader">Our Leaders</NavLink>
+          <NavLink to="/leader" onClick={() => setMenuOpen(!menuOpen)}>Our Leaders</NavLink>
         </li>
       </ul>
     </nav>

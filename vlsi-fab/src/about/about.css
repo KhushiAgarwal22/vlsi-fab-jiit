@@ -1,45 +1,60 @@
 .about{
-    margin-left:1vmin
+    margin: 60px auto;
+    width: 90%;
+}
+
+.aboutIntro{
+    width: 70%;
+    font-size: 20px;
+    margin: 30px auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.about h1{
+    text-align: center;
 }
 
 .butt_tech{
     display: flex;
     list-style-type: none;
     gap:1vmin;
-    justify-content: flex-start;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 50px auto;
     /* border: 1px solid black; */
-    margin-left: 0;
     padding-left: 0;
 }
 .butt_tech li button{
     font-size: 3vmin;
-    padding:1vmin
+    padding:1.1vmin
 }
 .abt_cont{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap:1vmin;
     /* border: 2px solid black; */
     width:60vw;
-    padding-left:0
+    padding: 30px 0;
 }
 .cad{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap:0;
-    width:50%;
+    width:45%;
+    text-align: justify;
 }
 .cad h2{
     color: blue;
     margin-bottom:0;
-
+    text-align: center;
 }
 .abt_cont{
-    margin: auto;
+    margin: 10vmin auto;
     box-shadow:  6px 4px 14px 4px rgb(163, 149, 149);
-    margin-bottom: 4vmin;
+    margin-bottom: 13vmin;
 }
 .abtimg img{
     width:50vmin;
@@ -53,17 +68,27 @@
         flex-direction: column;
         align-items: center;
     }
-    .cad{
-        width:90%
+    .aboutIntro {
+        width: 100%;
+        font-size: 17px;
     }
-    .cad h2,.cad p{
+    .butt_tech{
+        width: 100%;
+    }
+    .cad{
+        width:90%;
+    }
+    .cad h2{
         text-align: center;
+    }
+    .cad p{
+        text-align: justify;
     }
     .abt_cont{
         width:90vw;
     }
     .abtimg img{
-        width:50vmin;
+        width:70vmin;
         padding:2vmin
     }
 }

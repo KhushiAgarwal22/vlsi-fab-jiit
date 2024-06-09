@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div className="about">
       <h1>Infrastructure and Technology</h1>
-      <p>
+      <p class="aboutIntro">
         The VLSI (Very Large Scale Integration) Design, Fabrication, and
         Characterization Facility stands at the forefront of semiconductor
         innovation, offering a comprehensive suite of tools and technologies
