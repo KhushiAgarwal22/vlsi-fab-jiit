@@ -1,0 +1,69 @@
+.about{
+    margin-left:1vmin
+}
+
+.butt_tech{
+    display: flex;
+    list-style-type: none;
+    gap:1vmin;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    margin-left: 0;
+    padding-left: 0;
+}
+.butt_tech li button{
+    font-size: 3vmin;
+    padding:1vmin
+}
+.abt_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vmin;
+    /* border: 2px solid black; */
+    width:60vw;
+    padding-left:0
+}
+.cad{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:0;
+    width:50%;
+}
+.cad h2{
+    color: blue;
+    margin-bottom:0;
+
+}
+.abt_cont{
+    margin: auto;
+    box-shadow:  6px 4px 14px 4px rgb(163, 149, 149);
+    margin-bottom: 4vmin;
+}
+.abtimg img{
+    width:50vmin;
+    padding:2vmin
+}
+@media only screen and (max-width: 1250px){
+    .about h1{
+        text-align: center;
+    }
+    .abt_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cad{
+        width:90%
+    }
+    .cad h2,.cad p{
+        text-align: center;
+    }
+    .abt_cont{
+        width:90vw;
+    }
+    .abtimg img{
+        width:50vmin;
+        padding:2vmin
+    }
+}

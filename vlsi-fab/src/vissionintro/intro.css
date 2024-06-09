@@ -13,6 +13,33 @@
     text-align: center;
 }
 .content_intro h3{
-   font-size:3.5vmin;
+   font-size:1.5vw;
    margin-left:1vmin
 }
+.pic img{
+    width:40vw;
+}
+.viss h1 {
+    font-size: 2em;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 100%;
+    animation: animate 1.5s linear infinite; 
+    color:rgb(101, 5, 255)
+}
+@media only screen and (max-width: 750px) {
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:2px;
+        margin-top:1vmin
+    }
+    .pic img{
+        width:100vw;
+    }
+    .content_intro h3{
+       font-size:3vmin;
+       margin-left:1vmin
+    }
+  }
