@@ -21,7 +21,7 @@ export default function Nav() {
         </li>
         <li>
           <NavLink to="/message" onClick={() => setMenuOpen(!menuOpen)}>
-            Message from HOD
+            Message
           </NavLink>
         </li>
         <li>

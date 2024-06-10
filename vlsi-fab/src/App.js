@@ -7,6 +7,7 @@ import Body from './body/Body.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Equipment from "./Equipments/Equipment.js";
 import Leader from "./leaders/Leader.jsx";
+import Msg from "./extra/Msg.js";
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
           <Route path="/opportunities" element={<Body />}/>
           <Route path="/equipment" element={<Equipment/>}/>
           <Route path='/leader' element={<Leader/>}/>
+          <Route path='/message' element={<Msg/>}/>
         </Route>
+        
       </Routes>
     </BrowserRouter>
     <Credit />

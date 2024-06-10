@@ -27,19 +27,28 @@
 .pic img{
     width:40vw;
 }
+.vis_con div{
+    background-color: rgb(24, 119, 229);
+}
+.vis_con div h2{
+    color: rgb(0, 0, 82);
+}
+.vis_con div p{
+    color: rgb(238, 238, 255);
+}
 .viss h1 {
     font-size: 2em;
     margin: 40px auto;
     text-align: center;
     width: 100%;
     animation: animate 1.5s linear infinite; 
-    color:rgb(101, 5, 255)
+    color:rgb(95, 0, 248)
 }
 .vis_con{
     width: 95%;
     margin: auto;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     .intro{
         display: flex;
         flex-direction: column;
