@@ -85,3 +85,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .equipment-container {
+    padding: 10px;
+  }
+
+  .entry {
+    flex: 1 1 calc(100% - 20px); 
+  }
+}
+
