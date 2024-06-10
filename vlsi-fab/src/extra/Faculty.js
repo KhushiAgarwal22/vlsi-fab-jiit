@@ -11,6 +11,7 @@ export default function Faculty() {
           <div className="prof" key={idx}>
             <img src={prof.pic}></img>
             <p>{prof.name}</p>
+            {idx===0?<p className="hey">(HOD)</p>:""}
           </div>
         );
       })}</div>

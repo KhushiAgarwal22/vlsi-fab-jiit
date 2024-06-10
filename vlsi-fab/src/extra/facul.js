@@ -15,7 +15,7 @@ const profs=[
     {
         id:1,
         pic:p1,
-        name:"Prof. Shweta Srivastava (HOD)"
+        name:"Prof. Shweta Srivastava"
     },
     {
         id:2,

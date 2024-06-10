@@ -1,5 +1,6 @@
 .facc{
     text-align: center;
+    margin-bottom: 2vmin;
 }
 .faculty{
     display: flex;
@@ -27,9 +28,11 @@
       opacity: 0.5; 
     } 
   } 
+
+
 .prof img{
-    height:30vmin;
-    width:30vmin;
+    height:20vmin;
+    width:20vmin;
  
     border-radius: 50%;
     border: 2px solid black;
@@ -39,4 +42,9 @@
 .prof p{
     font-style: italic;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+.hey{
+  margin: 0;
 }
