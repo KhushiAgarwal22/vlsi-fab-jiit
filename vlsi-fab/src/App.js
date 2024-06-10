@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Equipment from "./Equipments/Equipment.js";
 import Leader from "./leaders/Leader.jsx";
 import Msg from "./extra/Msg.js";
+import Faculty from "./extra/Faculty.js";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/equipment" element={<Equipment/>}/>
           <Route path='/leader' element={<Leader/>}/>
           <Route path='/message' element={<Msg/>}/>
+          <Route path='/faculty' element={<Faculty/>}/>
         </Route>
         
       </Routes>

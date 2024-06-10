@@ -4,7 +4,7 @@
 }
 
 .aboutIntro{
-    width: 70%;
+    width: 90%;
     font-size: 20px;
     margin: 30px auto;
     text-align: justify;
@@ -13,22 +13,26 @@
 
 .about h1{
     text-align: center;
+    font-size: 8vmin;
+    animation: animate 1.5s linear infinite; 
+    color: #ff0000;
 }
+@keyframes animate{ 
+    0%{ 
+      opacity: 0.5; 
+    } 
+    50%{ 
+      opacity: 0.8; 
+    } 
+    75%{
+        opacity: 1;  
+    }
+    100%{ 
+      opacity: 0.5; 
+    } 
+  } 
 
-.butt_tech{
-    display: flex;
-    list-style-type: none;
-    gap:1vmin;
-    width: 70%;
-    justify-content: space-evenly;
-    margin: 50px auto;
-    /* border: 1px solid black; */
-    padding-left: 0;
-}
-.butt_tech li button{
-    font-size: 3vmin;
-    padding:1.1vmin
-}
+
 .abt_cont{
     display: flex;
     align-items: center;

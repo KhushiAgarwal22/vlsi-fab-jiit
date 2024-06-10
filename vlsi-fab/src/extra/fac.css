@@ -1,10 +1,17 @@
-.msg{
-    padding:3vmin
-}
-.msg h1{
+.facc{
     text-align: center;
+}
+.faculty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:4vmin;
+    /* width: 100%; */
+}
+.facc h1{
+    font-size: 8vmin;
+    color: #e71111;
     animation: animate 1.5s linear infinite; 
-    color: rgb(225, 10, 10);
 }
 @keyframes animate{ 
     0%{ 
@@ -20,13 +27,16 @@
       opacity: 0.5; 
     } 
   } 
-.dean{
-    display: flex;
-    justify-content: center;
-}
-.dean img{
+.prof img{
     height:30vmin;
     width:30vmin;
+ 
     border-radius: 50%;
-    margin:1vmin
+    border: 2px solid black;
+    /* margin:1vmin */
+}
+
+.prof p{
+    font-style: italic;
+    font-weight: bold;
 }
