@@ -45,6 +45,9 @@ nav ul li {
    text-align: center;
    padding:1vmin;
    font-size: 3vmin;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 nav ul li a {

@@ -14,22 +14,42 @@ export default function Nav() {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
-      <li>
-          <NavLink to="/" onClick={() => setMenuOpen(!menuOpen)}>Home</NavLink>
+        <li>
+          <NavLink to="/" onClick={() => setMenuOpen(!menuOpen)}>
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about" onClick={() => setMenuOpen(!menuOpen)}>About</NavLink>
+          <NavLink to="/message" onClick={() => setMenuOpen(!menuOpen)}>
+            Message from HOD
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/equipment" onClick={() => setMenuOpen(!menuOpen)}>Equipments</NavLink>
+          <NavLink to="/about" onClick={() => setMenuOpen(!menuOpen)}>
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/opportunities" onClick={() => setMenuOpen(!menuOpen)}>Opportunities</NavLink>
+          <NavLink to="/equipment" onClick={() => setMenuOpen(!menuOpen)}>
+            Equipments
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/leader" onClick={() => setMenuOpen(!menuOpen)}>Our Leaders</NavLink>
+          <NavLink to="/opportunities" onClick={() => setMenuOpen(!menuOpen)}>
+            Opportunities
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/faculty" onClick={() => setMenuOpen(!menuOpen)}>
+            Faculty
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/leader" onClick={() => setMenuOpen(!menuOpen)}>
+            Our Leaders
+          </NavLink>
         </li>
       </ul>
     </nav>
   );
-};
+}
