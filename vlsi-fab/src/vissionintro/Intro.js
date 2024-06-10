@@ -21,7 +21,7 @@ export default function Intro() {
       <div className="content_intro">
         <div className="intro-container">
           <div className="intro-content">
-            <h1>INTRODUCTION</h1>
+            <h3>INTRODUCTION</h3>
             <p>
               The Jaypee Institute of Information Technology (JIIT), renowned
               for its commitment to excellence in education and research, houses
