@@ -7,7 +7,7 @@ import t2 from "../assets/tech2.jpg";
 import t3 from "../assets/tech3.jpg";
 import t4 from "../assets/header_pic.jpg";
 import t5 from "../assets/tech4.jpg";
-import intro from "../assets/Intro_image.jpg";
+import intro from "../assets/intro_3.png";
 export default function Intro() {
   return (
     <div className="whole">
