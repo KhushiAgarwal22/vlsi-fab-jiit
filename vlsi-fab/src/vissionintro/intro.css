@@ -1,101 +1,153 @@
-.intro{
+.intro {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap:30px;
+    gap: 30px;
     width: 90%;
-    margin:7vmin auto;
+    margin: 7vmin auto;
 }
 
-.whole{
-    margin-top:40px;
+.whole {
+    margin-top: 40px;
     margin-bottom: 70px;
 }
-.content_intro{
-    margin:auto;
+
+.container-container {
+    display: flex;
+}
+
+.intro-container {
+    display: flex;
+}
+
+.intro-content {
+    flex: 1;
+}
+
+.intro-image {
+    flex-shrink: 0;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .intro-image {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+
+.content_intro {
+    margin: auto;
     height: max-content;
-    width:70vw;
+    width: 70vw;
 }
-.content_intro h1{
+
+.content_intro h1 {
     text-align: center;
-    font-size: 6vmin;
+    font-size: 8vmin;
 }
-.content_intro p{
-   font-size:1.1em;
-   font-weight: 600;
-   margin-left:1vmin;
-   line-height: 1.6;
-   text-align: center;
+
+.content_intro p {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-left: 1vmin;
+    line-height: 1.6;
+    text-align: center;
 }
-.pic img{
-    width:40vw;
+
+.pic img {
+    width: 40vw;
 }
-.vis_con div{
+
+.vis_con div {
     background-color: rgb(24, 119, 229);
 }
-.vis_con div h2{
+
+.vis_con div h2 {
     color: rgb(0, 0, 82);
 }
-.vis_con div p{
+
+.vis_con div p {
     color: rgb(238, 238, 255);
 }
+
 .viss h1 {
     font-size: 2.5em;
     text-align: center;
     margin: 40px auto;
     width: 100%;
-    animation: animate 1.5s linear infinite; 
-    color:rgb(95, 0, 248)
+    animation: animate 1.5s linear infinite;
+    color: rgb(95, 0, 248)
 }
-.vis_con{
+
+.vis_con {
     width: 95%;
     margin: auto;
 }
-.inaug{
+
+.inaug {
     color: rgb(255, 13, 13);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    animation: animate 1.5s linear infinite; 
+    animation: animate 1.5s linear infinite;
 }
-.inaug2{
-    background-color: rgb(184, 211, 240); 
-    margin-top:2vmin
+
+.inaug2 {
+    background-color: rgb(184, 211, 240);
+    margin-top: 2vmin
 }
-.pics{
+
+.pics {
     display: flex;
     justify-content: space-between;
-    gap:2vmin
+    gap: 2vmin
 }
-.pics img{
+
+.pics img {
     width: 30vw;
     border: 2px solid black;
     margin-right: 1vmin;
 }
+
 @media only screen and (max-width: 900px) {
-    .intro{
+    .intro {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap:2px;
-        margin:1vmin auto; 
+        gap: 2px;
+        margin: 1vmin auto;
     }
-    .pic img{
-        width:100%;
+
+    .pic img {
+        width: 100%;
     }
-    .content_intro{
-        width:98vw
+
+    .content_intro {
+        width: 98vw
     }
-    .content_intro h3{
-       font-size:2vmin;
-       margin-left:1vmin
+
+    .content_intro h3 {
+        font-size: 2vmin;
+        margin-left: 1vmin
     }
-    .content_intro p{
-       font-size:3vmin;
-       margin-left:1vmin
+
+    .content_intro p {
+        font-size: 3vmin;
+        margin-left: 1vmin
     }
-    .viss h1{
-    font-size: 2vin;
+
+    .viss h1 {
+        font-size: 2vin;
     }
-    .pics img{
+
+    .pics img {
         width: 70vw
     }
-  }
+}
