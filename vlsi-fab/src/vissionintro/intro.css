@@ -41,7 +41,7 @@
 }
 .viss h1 {
     font-size: 3em;
-    margin: 40px auto;
+    margin: 40px;
     text-align: center;
     width: 100%;
     animation: animate 1.5s linear infinite; 
