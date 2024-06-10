@@ -9,6 +9,7 @@ import Equipment from "./Equipments/Equipment.js";
 import Leader from "./leaders/Leader.jsx";
 import Msg from "./extra/Msg.js";
 import Faculty from "./extra/Faculty.js";
+import Coming from "./extra/Coming.js";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/leader' element={<Leader/>}/>
           <Route path='/message' element={<Msg/>}/>
           <Route path='/faculty' element={<Faculty/>}/>
+          <Route path="/coming" element={<Coming/>}/>
         </Route>
         
       </Routes>

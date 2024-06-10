@@ -7,6 +7,7 @@ import t2 from "../assets/tech2.jpg";
 import t3 from "../assets/tech3.jpg";
 import t4 from "../assets/header_pic.jpg";
 import t5 from "../assets/tech4.jpg";
+import Sidetabs from "./Sidetabs";
 export default function Intro() {
   return (
     <div className="whole">
@@ -35,6 +36,7 @@ export default function Intro() {
           <h2>Inauguration on 16 June,2024,11:00 AM in JIIT Campus !!&emsp;</h2>
         </Marquee>
       </div>
+      <Sidetabs/>
       <Vision />
     </div>
   );
