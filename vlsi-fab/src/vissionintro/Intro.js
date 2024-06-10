@@ -7,7 +7,7 @@ import t2 from "../assets/tech2.jpg";
 import t3 from "../assets/tech3.jpg";
 import t4 from "../assets/header_pic.jpg";
 import t5 from "../assets/tech4.jpg";
-import Sidetabs from "./Sidetabs";
+import intro from "../assets/Intro_image.jpg";
 export default function Intro() {
   return (
     <div className="whole">
@@ -19,24 +19,31 @@ export default function Intro() {
         <img src={t4} alt="pic" />
       </Marquee>
       <div className="content_intro">
-        <h1>INTRODUCTION</h1>
-        <p>
-          The Jaypee Institute of Information Technology (JIIT), renowned for
-          its commitment to excellence in education and research, houses one of
-          the advanced facilities in the realm of Very Large Scale Integration
-          (VLSI) technology – the VLSI Design, Fabrication, and Characterization
-          Facility. The facility is instrumental in propelling research,
-          education, and industry collaboration in semiconductor technologies.
-          It serves as a critical resource for students, researchers, and
-          professionals aiming to excel in the ever-evolving field of VLSI.
-        </p>
+        <div className="intro-container">
+          <div className="intro-content">
+            <h1>INTRODUCTION</h1>
+            <p>
+              The Jaypee Institute of Information Technology (JIIT), renowned
+              for its commitment to excellence in education and research, houses
+              one of the advanced facilities in the realm of Very Large Scale
+              Integration (VLSI) technology - the VLSI Design, Fabrication, and
+              Characterization Facility. The facility is instrumental in
+              propelling research, education, and industry collaboration in
+              semiconductor technologies. It serves as a critical resource for
+              students, researchers, and professionals aiming to excel in the
+              ever-evolving field of VLSI.
+            </p>
+          </div>
+          <div className="intro-image">
+            <img src={intro} alt="into_image" />
+          </div>
+        </div>
       </div>
       <div className="inaug2">
         <Marquee speed={120} className="inaug">
           <h2>Inauguration on 16 June,2024,11:00 AM in JIIT Campus !!&emsp;</h2>
         </Marquee>
       </div>
-      <Sidetabs/>
       <Vision />
     </div>
   );
