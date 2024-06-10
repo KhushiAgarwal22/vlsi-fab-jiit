@@ -9,7 +9,7 @@ export default function Faculty() {
       {profs.map((prof, idx) => {
         return (
           <div className="prof" key={idx}>
-            <img src={prof.pic}></img>
+            <img src={prof.pic} alt={prof.name}></img>
             <p>{prof.name}</p>
             {idx===0?<p className="hey">(HOD)</p>:""}
           </div>

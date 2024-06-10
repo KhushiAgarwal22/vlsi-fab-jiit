@@ -6,7 +6,7 @@ export default function Msg() {
     <div className="msg">
       <h1>Message from the HOD of Electronics and Communication Engineering</h1>
       <div className="dean">
-        <img src={dean} ></img>
+        <img src={dean} alt="dean" ></img>
       </div> 
       <p>
         It is with great excitement that we announce the inauguration of our

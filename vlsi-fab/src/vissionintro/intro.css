@@ -8,21 +8,24 @@
 }
 
 .whole{
+    margin-top:40px;
     margin-bottom: 70px;
 }
 .content_intro{
-    margin-left: 2px;
+    margin:auto;
     height: max-content;
+    width:70vw;
 }
 .content_intro h1{
     text-align: center;
+    font-size: 8vmin;
 }
 .content_intro p{
    font-size:1.3em;
    font-weight: 600;
    margin-left:1vmin;
    line-height: 1.6;
-    text-align: justify;
+   text-align: center;
 }
 .pic img{
     width:40vw;
@@ -37,7 +40,7 @@
     color: rgb(238, 238, 255);
 }
 .viss h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 40px auto;
     text-align: center;
     width: 100%;
@@ -47,6 +50,25 @@
 .vis_con{
     width: 95%;
     margin: auto;
+}
+.inaug{
+    color: rgb(255, 13, 13);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: animate 1.5s linear infinite; 
+}
+.inaug2{
+    background-color: rgb(184, 211, 240); 
+    margin-top:2vmin
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+    gap:2vmin
+}
+.pics img{
+    width: 30vw;
+    border: 2px solid black;
+    margin-right: 1vmin;
 }
 @media only screen and (max-width: 900px) {
     .intro{
@@ -59,15 +81,21 @@
     .pic img{
         width:100%;
     }
+    .content_intro{
+        width:98vw
+    }
     .content_intro h3{
        font-size:2vmin;
        margin-left:1vmin
     }
     .content_intro p{
-       font-size:4vmin;
+       font-size:3vmin;
        margin-left:1vmin
     }
     .viss h1{
     font-size: 2vin;
+    }
+    .pics img{
+        width: 70vw
     }
   }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./about.css";
 import data from "./aboutData";
 import t1 from "../assets/cad.jpg";
