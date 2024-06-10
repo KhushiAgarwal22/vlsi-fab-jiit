@@ -5,6 +5,9 @@ export default function Msg() {
   return (
     <div className="msg">
       <h1>Message from the HOD of Electronics and Communication Engineering</h1>
+      <div className="dean">
+        <img src={dean} ></img>
+      </div> 
       <p>
         It is with great excitement that we announce the inauguration of our
         state-of-the-art VLSI Design, Fabrication, and Characterization
@@ -46,7 +49,6 @@ export default function Msg() {
         shweta.srivastava@jiit.ac.in Thank you for your continued support and
         interest in our department's endeavors.</p>
         <p>Warm regards,<br/>
-         <img src={dean} className="dean"></img><br/>
          Prof.Shweta Srivastava <br/>
          Dean (A&R), <br/>
          Head of the Department Electronics and Communication Engineering</p>
