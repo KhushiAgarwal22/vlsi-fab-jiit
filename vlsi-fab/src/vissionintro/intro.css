@@ -40,9 +40,9 @@
     color: rgb(238, 238, 255);
 }
 .viss h1 {
-    font-size: 3em;
-    margin: 40px;
+    font-size: 2.5em;
     text-align: center;
+    margin: 40px auto;
     width: 100%;
     animation: animate 1.5s linear infinite; 
     color:rgb(95, 0, 248)
