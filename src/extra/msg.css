@@ -1,0 +1,32 @@
+.msg{
+    padding:3vmin
+}
+.msg h1{
+    text-align: center;
+    animation: animate 1.5s linear infinite; 
+    color: rgb(225, 10, 10);
+}
+@keyframes animate{ 
+    0%{ 
+      opacity: 0.5; 
+    } 
+    50%{ 
+      opacity: 0.8; 
+    } 
+    75%{
+        opacity: 1;  
+    }
+    100%{ 
+      opacity: 0.5; 
+    } 
+  } 
+.dean{
+    display: flex;
+    justify-content: center;
+}
+.dean img{
+    height:30vmin;
+    width:30vmin;
+    border-radius: 50%;
+    margin:1vmin
+}
