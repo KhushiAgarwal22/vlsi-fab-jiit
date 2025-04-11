@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import Logo from "../assets/jiit2.png";
-import chip from '../assets/indchip.webp'
+import chip from "../assets/indchip.webp";
 export default function Header() {
   return (
     <div className="head">
@@ -20,10 +20,17 @@ export default function Header() {
             </h3>
           </div>
           <div className="clg_web">
-            <p>Visit Us - {" "}
-            <a className="main_page" rel="noreferrer" href="https://www.jiit.ac.in/" target="_blank">
-               jiit.ac.in
-            </a></p>
+            <p>
+              Visit Us -{" "}
+              <a
+                className="main_page"
+                rel="noreferrer"
+                href="https://www.jiit.ac.in/"
+                target="_blank"
+              >
+                jiit.ac.in
+              </a>
+            </p>
           </div>
         </div>
         <div className="chip">
