@@ -14,12 +14,24 @@ export default function Sidetabs() {
           <div className="tabs">
             <ul>
               <li>
-                <a href="/coming">Manual for slot booking in VLSI Labs</a>
-              </li>
-              {/* <li>
-                <a href="/coming">Fund Transfer to Lab Account</a>
+                <a
+                  href="/documents/image.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Process of slot booking
+                </a>
               </li>
               <li>
+                <a
+                  href="/documents/Lab_Slot_Request_Form.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Form
+                </a>
+              </li>
+              {/* <li>
                 <a href="/coming">Slot Booking Portal</a>
               </li> */}
             </ul>
