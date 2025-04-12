@@ -1,0 +1,50 @@
+.facc{
+    text-align: center;
+    margin-bottom: 2vmin;
+}
+.faculty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:4vmin;
+    /* width: 100%; */
+}
+.facc h1{
+    font-size: 8vmin;
+    color: #e71111;
+    animation: animate 1.5s linear infinite; 
+}
+@keyframes animate{ 
+    0%{ 
+      opacity: 0.5; 
+    } 
+    50%{ 
+      opacity: 0.8; 
+    } 
+    75%{
+        opacity: 1;  
+    }
+    100%{ 
+      opacity: 0.5; 
+    } 
+  } 
+
+
+.prof img{
+    height:20vmin;
+    width:20vmin;
+ 
+    border-radius: 50%;
+    border: 2px solid black;
+    /* margin:1vmin */
+}
+
+.prof p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+.hey{
+  margin: 0;
+}
