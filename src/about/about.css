@@ -1,0 +1,98 @@
+.about{
+    margin: 60px auto;
+    width: 90%;
+}
+
+.aboutIntro{
+    width: 90%;
+    font-size: 20px;
+    margin: 30px auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 8vmin;
+    animation: animate 1.5s linear infinite; 
+    color: #ff0000;
+}
+@keyframes animate{ 
+    0%{ 
+      opacity: 0.5; 
+    } 
+    50%{ 
+      opacity: 0.8; 
+    } 
+    75%{
+        opacity: 1;  
+    }
+    100%{ 
+      opacity: 0.5; 
+    } 
+  } 
+
+
+.abt_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:1vmin;
+    /* border: 2px solid black; */
+    width:60vw;
+    padding: 30px 0;
+}
+.cad{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:0;
+    width:45%;
+    text-align: justify;
+}
+.cad h2{
+    color: blue;
+    margin-bottom:0;
+    text-align: center;
+}
+.abt_cont{
+    margin: 10vmin auto;
+    box-shadow:  6px 4px 14px 4px rgb(163, 149, 149);
+    margin-bottom: 13vmin;
+}
+.abtimg img{
+    width:50vmin;
+    padding:2vmin
+}
+@media only screen and (max-width: 1250px){
+    .about h1{
+        text-align: center;
+    }
+    .abt_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutIntro {
+        width: 100%;
+        font-size: 17px;
+    }
+    .butt_tech{
+        width: 100%;
+    }
+    .cad{
+        width:90%;
+    }
+    .cad h2{
+        text-align: center;
+    }
+    .cad p{
+        text-align: justify;
+    }
+    .abt_cont{
+        width:90vw;
+    }
+    .abtimg img{
+        width:70vmin;
+        padding:2vmin
+    }
+}

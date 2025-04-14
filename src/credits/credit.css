@@ -1,0 +1,33 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 135);
+    color: white;
+    text-align: center;
+    height: 130px;
+    width: 100%;
+    padding: 20px;
+}
+.footer div h2{
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .footer p{
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+    }
+    .footer div h2 {
+        font-size: 3.5vmin;
+        font-weight: bold;
+    }
+}
